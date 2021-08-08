@@ -1,0 +1,82 @@
+
+
+body {
+	background-color: watermelon;
+}
+
+
+header.header {background-color: black;}
+
+
+.navbar.navbar-brand {
+	padding: 0 2 0 5rem;
+}
+
+
+.navbar-brand > img { height: 60px;
+width: 200px;}
+
+.navbar-nav li {
+	text-transform: uppercase;
+	font-weight: 700;
+	padding-left: 10px;
+
+}
+
+div.about_sect {background: white;
+	color: watermelon;
+width: 1500px;
+
+}
+
+.message>{
+	justify-content: center;
+	font-size: 4rem;
+	font-weight: bolder;
+	margin-top: 25px;
+
+}
+
+
+
+.carousel-item {
+height: 32rem;
+background:#000000;
+background-color: black;
+
+}
+
+.carousel-item::before{
+	content:"";
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	background: #000000;
+	opacity: 0.2;
+}
+
+.carousel-item h5 {
+	font-size: 2rem;
+	color: white;
+	font-weight: 900;
+
+
+}
+
+
+.carousel-item p {
+	color: white;
+
+}
+
+.about_sect {
+	padding: 30px
+	
+	
+}
+
+
+.about_sect span { color: blue;}
